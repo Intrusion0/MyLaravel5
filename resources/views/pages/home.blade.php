@@ -1,8 +1,8 @@
 @extends('layouts.main-layout')
 @section('content')
     
-    @foreach ($films as $film)
-        <ul>
+    <ul>
+        @foreach ($films as $film)
             <li>
                 <a href="{{ route('film', $film->id) }}">
                    Title: 
@@ -11,7 +11,7 @@
                    </span>
                 </a>
             </li>
-        </ul>
-    @endforeach
+        @endforeach
+    </ul>
 
 @endsection
