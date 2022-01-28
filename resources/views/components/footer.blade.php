@@ -1,0 +1,3 @@
+<footer>
+    Sono Footer
+</footer>

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* body {
+  width: 50%;
+  margin: 0 auto;
+  background-color: #700b70;
+  color: white;
+  text-align: center;
+}
+
+header,
+footer {
+  font-size: 40px;
+  margin: 50px 0;
+  color: #c2c2c2;
+}
+
+ul li {
+  display: flex;
+  margin: 15px 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+ul li a span {
+  margin-left: 25px;
+}
+
+.container-film {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-film .title,
+.container-film .subtitle,
+.container-film .release_date {
+  margin: 20px 0;
+  font-size: 30px;
+  text-align: left;
+}
+
+.container-film .title span,
+.container-film .subtitle span,
+.container-film .release_date span {
+  margin-left: 15px;
+  font-size: 23px;
+}
+
