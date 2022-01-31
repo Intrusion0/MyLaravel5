@@ -32,7 +32,7 @@ class HomeController extends Controller
         $data = $request->validate([
             'title' => 'required|string|max:255',
             'subtitle' => 'required|string|max:255',
-            'release_date' => 'required|date|max:255'
+            'release_date' => 'required|date'
         ]);
 
         $film = Film::create($data);
@@ -53,7 +53,7 @@ class HomeController extends Controller
         $data = $request->validate([
             'title' => 'required|string|max:255',
             'subtitle' => 'required|string|max:255',
-            'release_date' => 'required|date|max:255'
+            'release_date' => 'required|date'
         ]);
 
         $film = Film::findOrFail($id);
