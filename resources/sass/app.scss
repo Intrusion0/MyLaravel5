@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     body {
-        width: 50%;
+        width: 60%;
         margin: 0 auto;
         background-color: rgb(112, 11, 112);
         color: white;
@@ -17,6 +17,12 @@ header, footer {
     font-size: 40px;
     margin: 50px 0;
     color: rgb(194, 194, 194);
+}
+
+a {
+    text-decoration: black;
+    color: lightgray;
+    font-size: 35px;
 }
 
 
@@ -52,4 +58,13 @@ ul {
             font-size: 23px;
         }
     }
+}
+
+input {
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.delete {
+    margin-left: 10px;
 }

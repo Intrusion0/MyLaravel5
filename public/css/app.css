@@ -5,7 +5,7 @@
 }
 
 * body {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   background-color: #700b70;
   color: white;
@@ -17,6 +17,13 @@ footer {
   font-size: 40px;
   margin: 50px 0;
   color: #c2c2c2;
+}
+
+a {
+  -webkit-text-decoration: black;
+          text-decoration: black;
+  color: lightgray;
+  font-size: 35px;
 }
 
 ul li {
@@ -52,5 +59,14 @@ ul li a span {
 .container-film .release_date span {
   margin-left: 15px;
   font-size: 23px;
+}
+
+input {
+  margin: 15px 0;
+  font-size: 20px;
+}
+
+.delete {
+  margin-left: 10px;
 }
 
